@@ -1,0 +1,67 @@
+.sixthSection{
+    padding: 3rem;
+}
+
+.sixthSection .title{
+    width: max-content;
+
+    margin: auto;
+    padding-bottom: 1rem;
+
+    position: relative;
+  
+    color: #003049;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.sixthSection .title:before {
+    content: "";
+
+    width: 9.8rem;
+    height: 1rem;
+    background-color: #fcbf49;
+
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+  }
+
+.sixthSection .container{
+    margin: auto;
+    margin-top: 3rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sixthSection .container .item{
+    font-size: 4rem;
+    font-weight: bolder;
+  
+    filter: grayscale(100%);
+    transition: filter 300ms; 
+    cursor: default;
+}
+
+.sixthSection .container .item:nth-child(1) {
+    color: goldenrod;
+}
+.sixthSection .container .item:nth-child(2) {
+    color: red;
+}
+.sixthSection .container .item:nth-child(3) {
+    color: green;
+}
+.sixthSection .container .item:nth-child(4) {
+    color: orangered;
+}
+.sixthSection .container .item:nth-child(5) {
+    color: purple;
+}
+
+.sixthSection .container .item:hover {
+    filter: grayscale(0);
+}

@@ -1,0 +1,64 @@
+.secondSection{
+    background: url(../images/shane-mclendon-9jPJrfLTBi0-unsplash.jpg) center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    position: relative;
+}
+
+.txtBg{
+    width: 50%;
+    height: 78rem;
+    background-color: white;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.secondSection .container{
+    margin: auto;
+
+    z-index: 2;
+    position: relative;
+}
+
+
+
+.secondSection .textArea{
+    width: 50rem;
+    background-color: white;
+    
+  
+    padding: 2rem ;
+}
+
+.secondSection .textArea h1{    
+    color: #003049;
+    font-size: 5rem;
+    font-weight: bold;
+
+    position: relative;
+}
+
+.secondSection .textArea h1:before {
+    content: "";
+
+    width: 20rem;
+    height: 1rem;
+    background-color: #fcbf49;
+
+    bottom: -1rem;
+    left: 0.2rem;
+    position: absolute;
+}
+
+.secondSection .textArea p{
+    color: #7d7d7d;
+    font-size: 2.5rem;
+
+    margin-top: 1.5rem;
+}

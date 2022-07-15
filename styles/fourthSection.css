@@ -1,0 +1,40 @@
+.fourthSection{
+    background-color: #fcbf49;
+
+    padding: 4rem;
+}
+
+.fourthSection .container{
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fourthSection .container .item{
+    width: 20rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fourthSection .container .item .itemNumber{
+    color: #3d5975;
+    font-size: 6rem;
+    font-weight: bolder;
+}
+
+.fourthSection .container .item .itemText{
+    color: #3d5975;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.fourthSection .container .divisor{
+    height: 6rem;
+    width: 0.3rem;
+    background-color: white;
+}
