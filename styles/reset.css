@@ -23,3 +23,14 @@ html {
 .container{
     width: 94rem;    
 }
+
+@media (max-width: 980px){
+  .container{
+    width: 100%;    
+  }
+
+    section{
+      padding: 0rem;
+    }
+
+}

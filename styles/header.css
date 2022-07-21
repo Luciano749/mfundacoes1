@@ -33,6 +33,72 @@ nav ul{
     display: flex;
 }
 
+.responsiveNavButton{
+    background-color: transparent;
+
+    margin: 0 2.5rem;
+
+    display: none;
+
+
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 1.8rem;
+    color: white;
+  
+    cursor: pointer;
+    transition: color 250ms;
+}
+
+.modal{
+    width: 100%;
+    height: 100%;
+    background-color: #011a27da;
+
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+    top: 0;
+    position: fixed;
+    z-index: 999;
+}
+
+.modal.active{
+    display: flex;
+}
+
+.modal ul li{
+    margin: 6rem 0;
+
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 4rem;
+    color: white;
+  
+    cursor: pointer;
+    transition: color 250ms;
+
+    position: relative;
+}
+
+.modal ul li:before {
+    content: "";
+    height: 0.3rem;
+    width: 100%;
+    background-color: #fcbf49;
+
+    left: 0;
+    bottom: 0;
+    position: absolute;
+
+    transition: background-color 300ms;
+}
+
+.modal ul li:hover:before {
+    background-color: #7e6023;
+}
+
 nav ul li{
     margin: 0 2.5rem;
 
@@ -47,4 +113,22 @@ nav ul li{
 
 nav ul li:hover {
     color: #fcbf49;
-  }
+}
+
+/* - Responsive - */
+
+@media (max-width: 1000px) {
+    nav ul {
+        display: none;
+    }
+
+    .responsiveNavButton{
+        display: block;
+    }
+}
+
+@media (max-width:388px){
+    .logo{
+        width: 50%;
+    }
+}

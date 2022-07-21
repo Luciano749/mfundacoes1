@@ -21,9 +21,15 @@
     color: white;
     font-size: 8rem;
     font-weight: 400;
-   
+    text-align: center;
 }
 
 .firstSection .container h1 span{
     color: #fcbf49;
+}
+
+@media (max-width: 530px){
+    .firstSection .container h1{
+        font-size: 5.5rem;
+    }
 }

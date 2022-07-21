@@ -17,6 +17,9 @@
 
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css" integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ==" crossorigin="" />
     <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js" integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ==" crossorigin=""></script>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
      
     
     <title>Minas Fundações</title>
@@ -36,19 +39,30 @@
                 <li>Lorem</li>
                 <li>Lorem</li>
             </ul>
+            <button class="responsiveNavButton">Menu</button>
         </nav>
     </header>
 
+    <div class="modal" onclick="hideModal()">
+        <ul>
+            <li>Lorem</li>
+            <li>Lorem</li>
+            <li>Lorem</li>
+            <li>Lorem</li>
+            <li>Lorem</li>
+        </ul>
+    </div>
+
     <section class="firstSection">
         <div class="container">
-            <h1>MINAS <span>FUNDAÇÕES</span></h1>
+            <h1 data-aos="fade-up">MINAS <span>FUNDAÇÕES</span></h1>
         </div>
     </section>
 
     <section class="secondSection">
         <div class="txtBg"></div>
         <div class="container">
-                <div class="textArea">
+                <div class="textArea" data-aos="fade-right">
                     <h1>LOREM IPSUM</h1>
     
                     <p>
@@ -59,20 +73,20 @@
     </section>
 
     <section class="thirdSection">
-        <h1 class="title">SERVIÇOS</h1>
+        <h1 class="title" data-aos="fade-up">SERVIÇOS</h1>
 
         <div class="container">
-            <div class="item">
+            <div class="item"  data-aos="fade-left">
                 <img src="./images//jamar-penny-unsplash.jpg" alt="IMAGEM">
                 <h2 class="itemTitle">Lorem Ipsum</h2>
                 <p>Mussum Ipsum, cacilds vidis litro abertis. Leite de capivaris, leite de mula manquis sem cabeça.Praesent vel viverra nisi. Mauris aliquet nunc non turpis scelerisque, eget.Suco de cevadiss, é um leite</p>
             </div>
-            <div class="item">
+            <div class="item" data-aos="fade-left" data-aos-delay="50">
                 <img src="./images//jamar-penny-unsplash.jpg" alt="IMAGEM">
                 <h2 class="itemTitle">Lorem Ipsum</h2>
                 <p>Mussum Ipsum, cacilds vidis litro abertis. Leite de capivaris, leite de mula manquis sem cabeça.Praesent vel viverra nisi. Mauris aliquet nunc non turpis scelerisque, eget.Suco de cevadiss, é um leite</p>
             </div>
-            <div class="item">
+            <div class="item" data-aos="fade-left" data-aos-delay="100">
                 <img src="./images//jamar-penny-unsplash.jpg" alt="IMAGEM">
                 <h2 class="itemTitle">Lorem Ipsum</h2>
                 <p>Mussum Ipsum, cacilds vidis litro abertis. Leite de capivaris, leite de mula manquis sem cabeça.Praesent vel viverra nisi. Mauris aliquet nunc non turpis scelerisque, eget.Suco de cevadiss, é um leite</p>
@@ -82,22 +96,22 @@
 
     <section class="fourthSection">
         <div class="container">
-            <div class="item">
+            <div class="item" data-aos="fade-up">
                 <h1 class="itemNumber">2000</h1>
                 <h2 class="itemText">Lorem<br />Ipsum</h2> 
             </div>
             <div class="divisor"></div>
-            <div class="item">
+            <div class="item" data-aos="fade-up" data-aos-delay="50">
                 <h1 class="itemNumber">100</h1>
                 <h2 class="itemText">Lorem<br />Ipsum</h2> 
             </div>
             <div class="divisor"></div>
-            <div class="item">
+            <div class="item" data-aos="fade-up" data-aos-delay="150">
                 <h1 class="itemNumber">300</h1>
                 <h2 class="itemText">Lorem<br />Ipsum</h2> 
             </div>
             <div class="divisor"></div>
-            <div class="item">
+            <div class="item" data-aos="fade-up" data-aos-delay="200">
                 <h1 class="itemNumber">14</h1>
                 <h2 class="itemText">Lorem<br />Ipsum</h2> 
             </div>
@@ -106,43 +120,43 @@
     </section>
 
     <section class="fifthSection">
-        <h1 class="title">LOREM</h1>
+        <h1 class="title" data-aos="fade-up">LOREM</h1>
         <div class="container">
-            <div class="item">
+            <div class="item" data-aos="fade-right" >
                 <h2>Lorem 1</h2>
             </div>
 
-            <div class="item">
+            <div class="item" data-aos="fade-left">
                 <h2>Lorem 2</h2>
             </div>
 
-            <div class="item">
+            <div class="item" data-aos="fade-right" data-aos-delay="100">
                 <h2>Lorem 3</h2>
             </div>
 
-            <div class="item">
+            <div class="item" data-aos="fade-left" data-aos-delay="100">
                 <h2>Lorem 4</h2>
             </div>
         </div>
     </section>
 
     <section class="sixthSection">
-        <h1 class="title">LOREM</h1>
+        <h1 class="title" data-aos="fade-up">LOREM</h1>
         <div class="container">
-            <h2 class="item">Lorem</h2>
-            <h2 class="item">Lorem</h2>
-            <h2 class="item">Lorem</h2>
-            <h2 class="item">Lorem</h2>
-            <h2 class="item">Lorem</h2>
+            <h2 class="item1" data-aos="fade-up" data-aos-delay="50"a>Lorem</h2>
+            <h2 class="item1" data-aos="fade-up" data-aos-delay="100"a>Lorem</h2>
+            <h2 class="item1" data-aos="fade-up" data-aos-delay="150"a>Lorem</h2>
+            <h2 class="item1" data-aos="fade-up" data-aos-delay="200"a>Lorem</h2>
+            <h2 class="item1" data-aos="fade-up" data-aos-delay="250"a>Lorem</h2>
         </div>
     </section>
 
     <section class="seventhSection">
-        <h1 class="title">CONTATO</h1>
-        <div class="container">
-            <div id="map"></div>
+        <h1 class="title" data-aos="fade-up" data-aos-delay="50">CONTATO</h1>
+        <div class="container" >
+            <div id="map" data-aos="fade-up" data-aos-delay="50"></div>
             <div class="infosContainer">
-                <div class="p1">
+                <div class="p1" data-aos="fade-right" data-aos-delay="50">
                     <div>
                         <h2 class="infoTitle">Lorem</h2>
                         <p class="infoText">Mussum Ipsum, cacilds vidis litro abertis. Não sou faixa preta cumpadi, sou preto inteiris, inteirisssss.</p>
@@ -157,7 +171,7 @@
                    
                   
                 </div>
-                <div class="p2">
+                <div class="p2" data-aos="fade-left" data-aos-delay="50">
                     <div>
                         <h2 class="infoTitle">Lorem</h2>
                         <p class="infoText">

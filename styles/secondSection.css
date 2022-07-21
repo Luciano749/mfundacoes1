@@ -6,6 +6,7 @@
     background-repeat: no-repeat;
 
     position: relative;
+    padding: 0 2rem;
 }
 
 .txtBg{
@@ -61,4 +62,34 @@
     font-size: 2.5rem;
 
     margin-top: 1.5rem;
+}
+
+@media(max-width:850px){
+    .secondSection{
+        background: white;
+    }
+
+    .secondSection .textArea h1:before {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+
+    .secondSection .textArea{
+        width: 100%;
+        margin: auto;
+
+        text-align: center;
+    }
+
+    .secondSection .textArea p{
+        width: 100%;
+        max-width: 68rem;
+        margin: auto;
+        margin-top: 4rem;
+    }
+
+    .txtBg{
+        display: none;
+    }
 }

@@ -36,6 +36,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .thirdSection .container .item{
@@ -65,4 +66,19 @@
 
     color: #7d7d7d;
     font-size: 1.6rem;
+}
+
+@media (max-width: 980px){
+    .thirdSection .container{
+        justify-content: center;
+    }
+    .thirdSection .container .item{
+        margin: 2rem;
+        text-align: center;
+    }
+
+    .thirdSection .container .item .itemTitle{
+        margin: 1.5rem auto;
+    }
+
 }
