@@ -1,5 +1,5 @@
 .secondSection{
-    background: url(../images/shane-mclendon-9jPJrfLTBi0-unsplash.jpg) center;
+    background: url(../images/IMG01.jpg) center;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -22,17 +22,15 @@
 
 .secondSection .container{
     margin: auto;
-
     z-index: 2;
     position: relative;
 }
 
 
-
 .secondSection .textArea{
     width: 50rem;
     background-color: white;
-    
+    height: 78rem;
   
     padding: 2rem ;
 }
@@ -74,9 +72,15 @@
         transform: translateX(-50%);
     }
 
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
     .secondSection .textArea{
         width: 100%;
+        height: max-content;
         margin: auto;
 
         text-align: center;

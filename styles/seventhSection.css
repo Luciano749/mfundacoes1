@@ -2,6 +2,7 @@
     padding: 3rem;
 }
 
+
 .seventhSection .title{
     width: max-content;
 
@@ -26,6 +27,7 @@
     left: 50%;
     transform: translateX(-50%);
     position: absolute;
+
 }
 
 .seventhSection .container{
@@ -33,22 +35,22 @@
     margin-top: 3rem;
 
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
+
+    overflow: hidden;
 }
 
 #map{
-    width: 100%;
-    height: 36.5rem;
+    width: 32rem;
+    height: 32rem;
 }
 
-.infosContainer{
-    display: flex;
-    margin-top: 3rem;
-}
+
 
 .p1,.p2{
     height: 32rem;
-    max-width: 50rem;
+    max-width: 28rem;
 
     margin: auto;
 
@@ -57,66 +59,70 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
+    align-items: center;    
+    overflow-x: hidden;
 }
 
-.infoTitle{
+
+.p1 h2{
+    color: #003049;
+    font-size: 2.5rem;
+    font-weight: bolder;
+
+
+}
+
+.p1 h2 span{
+    color: #fcbf49;
+}
+
+.p1 ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.p1 ul li{
+    margin: 0 .5rem;
+
+    color: #464545;
+    font-size: 1.7rem;
+
+    cursor: pointer;
+    transition: color 300ms;
+}
+
+.p1 ul li:hover{
+    color: #000000;
+}
+
+.p1 h4{
+    font-size: 1.7rem;
+    color: #464545;
+}
+
+.p2 .infoTitle{
     margin-bottom: 1rem;
 
     color: #003049;
     font-size: 2.5rem;
     font-weight: bolder;
+
+    overflow-x: hidden;
 }
 
-.infoText{
+.p2 .infoText{
     color: #464545;
     font-size: 1.7rem;
+
+    
 }
 
-.p1 form{
-    display: flex;
-    flex-direction: column;
-}
 
-.p1 form input{
-    width: 39rem;
-
-    margin: 1rem 0;
-    padding: 0.5rem;
-    border: 1px solid black;
-  
-    font-size: 1.7rem;
-}
-
-.p1 button{
-    width: 39rem;
-    background-color: #003049;
-
-    padding: 0.5rem 3rem;
-  
-    color: #fcbf49;
-    font-size: 2rem;
-  
-    cursor: pointer;
-    transition: background-color 300ms, color 300ms;
-}
-
-.p1 button:hover {
-    background-color: #fcbf49;
-    color: #003049;
-  }
-
-  @media (max-width:680px){
-    .infosContainer{
-        flex-wrap: wrap;
-    }
+@media (max-width:939px){
     .p2{
-        margin-top: 2rem;
-    }
-}
 
-@media (max-width:390px){
-    .p1 form,.p1 form input, .p1 form button{
-        width: 100%;
+        margin: auto;
+        margin: 2rem 0;
     }
 }
