@@ -1,10 +1,10 @@
-.fourthSection{
+#fourthSection{
     background-color: #fcbf49;
 
     padding: 4rem;
 }
 
-.fourthSection .container{
+#fourthSection .container{
     margin: auto;
 
     display: flex;
@@ -13,7 +13,7 @@
     flex-wrap: wrap;
 }
 
-.fourthSection .container .item{
+#fourthSection .container .item{
     width: 20rem;
 
     display: flex;
@@ -22,30 +22,30 @@
     flex-direction: column;
 }
 
-.fourthSection .container .item .itemNumber{
+#fourthSection .container .item .itemNumber{
     color: #3d5975;
     font-size: 4rem;
     font-weight: bolder;
 }
 
-.fourthSection .container .item .itemText{
+#fourthSection .container .item .itemText{
     color: #3d5975;
     font-size: 2rem;
     font-weight: bolder;
 }
 
-.fourthSection .container .divisor{
+#fourthSection .container .divisor{
     height: 6rem;
     width: 0.3rem;
     background-color: white;
 }
 
 @media (max-width:888px){
-    .fourthSection .container{
+    #fourthSection .container{
         justify-content: center;
     }
 
-    .fourthSection .container .divisor{
+    #fourthSection .container .divisor{
         display: none;
     }
 }

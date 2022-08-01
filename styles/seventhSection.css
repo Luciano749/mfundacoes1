@@ -1,9 +1,9 @@
-.seventhSection {
+#seventhSection {
     padding: 3rem;
 }
 
 
-.seventhSection .title{
+#seventhSection .title{
     width: max-content;
 
     margin: auto;
@@ -16,7 +16,7 @@
     font-weight: bold;
 }
 
-.seventhSection .title:before {
+#seventhSection .title:before {
     content: "";
 
     width: 9.8rem;
@@ -30,7 +30,7 @@
 
 }
 
-.seventhSection .container{
+#seventhSection .container{
     margin: auto;
     margin-top: 3rem;
 

@@ -2,8 +2,9 @@ AOS.init();
 
 // --
 
-let modal = document.getElementsByClassName("modal")[0];
-let responsiveNavButton = document.getElementsByClassName(
+const body = document.querySelector("body");
+const modal = document.getElementsByClassName("modal")[0];
+const responsiveNavButton = document.getElementsByClassName(
   "responsiveNavButton"
 )[0];
 
@@ -16,6 +17,14 @@ modal.onclick = (e) => {
     modal.classList.remove("active");
   }
 };
+
+// ---
+
+function smoothScroll(e) {
+  e.scrollIntoView({
+    behavior: "smooth",
+  });
+}
 
 // ---
 

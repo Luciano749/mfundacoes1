@@ -75,6 +75,7 @@ nav ul{
     font-weight: 400;
     font-size: 4rem;
     color: white;
+    text-align: center;
   
     cursor: pointer;
     transition: color 250ms;
@@ -127,8 +128,3 @@ nav ul li:hover {
     }
 }
 
-@media (max-width:388px){
-    .logo{
-        width: 50%;
-    }
-}

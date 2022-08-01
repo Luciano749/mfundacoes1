@@ -1,8 +1,8 @@
-.sixthSection{
+#sixthSection{
     padding: 3rem;
 }
 
-.sixthSection .title{
+#sixthSection .title{
     width: max-content;
 
     margin: auto;
@@ -15,7 +15,7 @@
     font-weight: bold;
 }
 
-.sixthSection .title:before {
+#sixthSection .title:before {
     content: "";
 
     width: 9.8rem;
@@ -28,7 +28,7 @@
     position: absolute;
   }
 
-.sixthSection .container{
+#sixthSection .container{
     margin: auto;
     margin-top: 3rem;
 
@@ -38,7 +38,7 @@
     flex-wrap: wrap;
 }
 
-.sixthSection .container .item1{
+#sixthSection .container .item1{
    
 
     font-size: 4rem;
@@ -48,33 +48,33 @@
     cursor: default;
 }
 
-.sixthSection .container .item1:nth-child(1) {
+#sixthSection .container .item1:nth-child(1) {
     color: goldenrod;
 }
-.sixthSection .container .item1:nth-child(2) {
+#sixthSection .container .item1:nth-child(2) {
     color: red;
 }
-.sixthSection .container .item1:nth-child(3) {
+#sixthSection .container .item1:nth-child(3) {
     color: green;
 }
-.sixthSection .container .item1:nth-child(4) {
+#sixthSection .container .item1:nth-child(4) {
     color: orangered;
 }
-.sixthSection .container .item1:nth-child(5) {
+#sixthSection .container .item1:nth-child(5) {
     color: purple;
 }
 
-.sixthSection .container .item1:hover {
+#sixthSection .container .item1:hover {
     filter: grayscale(0);
 }
 
 @media (max-width:820px){
-    .sixthSection .container{
+    #sixthSection .container{
         justify-content: center;
         
     }
 
-    .sixthSection .container .item1{
+    #sixthSection .container .item1{
         margin:  2rem;
     }
   

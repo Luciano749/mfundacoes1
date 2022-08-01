@@ -33,33 +33,33 @@
 
         <nav>
             <ul>
-                <li>HOME</li>
-                <li>SOBRE</li>
-                <li>SERVIÇOS</li>
-                <li>IMAGENS</li>
-                <li>CONTATO</li>
+                <li onclick="smoothScroll(firstSection)">HOME</li>
+                <li onclick="smoothScroll(secondSection)">SOBRE</li>
+                <li onclick="smoothScroll(thirdSection)">SERVIÇOS</li>
+                <li onclick="smoothScroll(fourthSection)">IMAGENS</li>
+                <li onclick="smoothScroll(seventhSection)">CONTATO</li>
             </ul>
             <button class="responsiveNavButton">Menu</button>
         </nav>
     </header>
 
-    <div class="modal" onclick="hideModal()">
+    <div class="modal">
         <ul>
-            <li>HOME</li>
-            <li>SOBRE</li>
-            <li>SERVIÇOS</li>
-            <li>IMAGENS</li>
-            <li>CONTATO</li>
+            <li onclick="smoothScroll(firstSection)">HOME</li>
+            <li onclick="smoothScroll(secondSection)">SOBRE</li>
+            <li onclick="smoothScroll(thirdSection)">SERVIÇOS</li>
+            <li onclick="smoothScroll(fourthSection)">IMAGENS</li>
+            <li onclick="smoothScroll(seventhSection)">CONTATO</li>
         </ul>
     </div>
 
-    <section class="firstSection">
+    <section id="firstSection">
         <div class="container">
             <h1 data-aos="fade-up">MINAS <span>FUNDAÇÕES</span></h1>
         </div>
     </section>
 
-    <section class="secondSection">
+    <section id="secondSection">
         <div class="txtBg"></div>
         <div class="container">
                 <div class="textArea" data-aos="fade-right">
@@ -72,7 +72,7 @@
         </div>
     </section>
 
-    <section class="thirdSection">
+    <section id="thirdSection">
         <h1 class="title" data-aos="fade-up">SERVIÇOS</h1>
 
         <div class="container">
@@ -94,7 +94,7 @@
         </div>
     </section>
 
-    <section class="fourthSection">
+    <section id="fourthSection">
         <div class="container">
             <div class="item" data-aos="fade-up">
                 <h2 class="itemText">Diâmetro até</h2> 
@@ -122,7 +122,7 @@
         </div>
     </section>
 
-    <section class="fifthSection">
+    <section id="fifthSection">
         <h1 class="title" data-aos="fade-up">IMAGENS</h1>
         <div class="container">
             
@@ -148,7 +148,7 @@
         </div>
     </section>
 
-    <section class="sixthSection">
+    <section id="sixthSection">
         <h1 class="title" data-aos="fade-up">CLIENTES</h1>
         <div class="container">
             <h2 class="item1" data-aos="fade-up" data-aos-delay="50"a>Lorem</h2>
@@ -159,7 +159,7 @@
         </div>
     </section>
 
-    <section class="seventhSection">
+    <section id="seventhSection">
         <h1 class="title" data-aos="fade-up" data-aos-delay="50">CONTATO</h1>
         <div class="container" >
             <div id="map" data-aos="fade-up" data-aos-delay="50"></div>

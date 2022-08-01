@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600;700;800;900&display=swap');
 
 
-.firstSection{
+#firstSection{
     height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(../images/bg1.png) center;
@@ -12,24 +12,24 @@
     align-items: center;
 }
 
-.firstSection .container{
+#firstSection .container{
     display: flex;
     justify-content: center;
 }
 
-.firstSection .container h1{
+#firstSection .container h1{
     color: white;
     font-size: 8rem;
     font-weight: 400;
     text-align: center;
 }
 
-.firstSection .container h1 span{
+#firstSection .container h1 span{
     color: #fcbf49;
 }
 
 @media (max-width: 530px){
-    .firstSection .container h1{
+    #firstSection .container h1{
         font-size: 5.5rem;
     }
 }
